@@ -1,0 +1,17 @@
+.taskFilter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 7px;
+}
+
+.taskBtn {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 2.5px 10px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+
+.taskBtn.active {
+  background-color: rgb(143, 238, 14);
+}

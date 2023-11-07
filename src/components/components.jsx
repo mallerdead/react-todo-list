@@ -1,0 +1,5 @@
+export { Search } from "./Search/Search"
+export { Tasks } from "./Tasks/Tasks"
+export { CheckAll } from "./CheckAll/ChechkAll"
+export { TaskFilter } from "./TaskFilter/TaskFilter"
+export { AddTask } from "./AddTask/AddTask"

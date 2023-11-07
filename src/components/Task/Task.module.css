@@ -1,0 +1,37 @@
+.task {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  height: 40px;
+}
+
+.taskName {
+  font-size: 26px;
+  width: 100%;
+}
+
+.removeTaskBtn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.removeTaskBtn::after,
+.removeTaskBtn::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  background-color: #000;
+}
+
+.removeTaskBtn::after {
+  transform: rotate(45deg);
+}
+
+.removeTaskBtn::before {
+  transform: rotate(-45deg);
+}
